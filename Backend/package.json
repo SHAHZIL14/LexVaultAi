@@ -1,0 +1,31 @@
+{
+  "name": "lexvault",
+  "version": "1.0.0",
+  "description": "A lightweight yet powerful Retrieval-Augmented Generation (RAG) backend designed for legal question-answering. Built with Node.js, this service retrieves the most relevant legal text from a mock dataset, constructs a contextual prompt, and generates a refined response using an LLM or a mock generator.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHAHZIL14/LexVault.git"
+  },
+  "author": "Mohd Shazil Raza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHAHZIL14/LexVault/issues"
+  },
+  "homepage": "https://github.com/SHAHZIL14/LexVault#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "natural": "^8.1.0",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.11",
+    "openai": "^6.9.1"
+  }
+}

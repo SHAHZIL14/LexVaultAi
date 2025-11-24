@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "title": "IPC Section 302 – Punishment for Murder",
+    "content": "Section 302 IPC prescribes punishment for murder. The offender may be sentenced to death or imprisonment for life along with a fine. Murder involves intentional killing or causing bodily injury with knowledge that it is likely to result in death. The court considers motive, intention, and the severity of injuries."
+  },
+  {
+    "id": 2,
+    "title": "IPC Section 304 – Culpable Homicide Not Amounting to Murder",
+    "content": "Section 304 covers cases where death is caused without intention to kill. Punishment varies depending on whether the act was done with knowledge or without intention. It may include imprisonment for up to 10 years or life imprisonment. Courts differentiate based on degree of intention and circumstances."
+  },
+  {
+    "id": 3,
+    "title": "IPC Section 307 – Attempt to Murder",
+    "content": "Attempt to murder involves an act done with intention or knowledge that, if successful, would amount to murder. Punishment includes imprisonment up to 10 years or life imprisonment. The nature of injuries and weapon used are important factors. Actual injury is not necessary for conviction."
+  },
+  {
+    "id": 4,
+    "title": "IPC Section 323 – Voluntarily Causing Hurt",
+    "content": "This section punishes causing bodily pain, disease, or infirmity to another person. It is a bailable and compoundable offence. Punishment extends up to one year imprisonment or fine. Courts consider the intention behind the act."
+  },
+  {
+    "id": 5,
+    "title": "IPC Section 325 – Grievous Hurt",
+    "content": "Grievous hurt involves severe injuries like fractures, permanent loss of sight, or disfigurement. Punishment may extend to seven years imprisonment. This is a more serious offence than simple hurt. Medical evidence plays an important role."
+  },
+  {
+    "id": 6,
+    "title": "IPC Section 354 – Outraging Modesty of a Woman",
+    "content": "This section penalizes assault or criminal force intended to outrage a woman’s modesty. Punishment ranges from one to five years. It is a cognizable and non-bailable offence. The woman's feelings and circumstances are considered."
+  },
+  {
+    "id": 7,
+    "title": "IPC Section 354A – Sexual Harassment",
+    "content": "Sexual harassment includes unwelcome physical contact, demanding sexual favors, or showing pornography without consent. Punishment ranges from one to three years. It is aimed at workplace and public safety. Consent and intention are key factors."
+  },
+  {
+    "id": 8,
+    "title": "IPC Section 354B – Assault with Intent to Disrobe",
+    "content": "This section criminalizes using force or assault to disrobe a woman. Punishment extends to three to seven years. It is a non-bailable offence. The protection ensures dignity and bodily autonomy."
+  },
+  {
+    "id": 9,
+    "title": "IPC Section 363 – Kidnapping",
+    "content": "Kidnapping involves taking a minor or person of unsound mind from lawful guardianship. Punishment may extend to seven years. Consent of the minor is irrelevant. Intention to wrongfully confine or exploit is often investigated."
+  },
+  {
+    "id": 10,
+    "title": "IPC Section 365 – Kidnapping with Intent to Confine",
+    "content": "This offence involves kidnapping a person with the intention to secretly and wrongfully confine them. Punishment extends up to seven years plus fine. The element of secrecy is crucial. Courts assess motive and location of confinement."
+  },
+  {
+    "id": 11,
+    "title": "IPC Section 375 – Definition of Rape",
+    "content": "Section 375 defines rape as sexual intercourse without consent, with coercion, fraud, or against will. It includes cases involving minors and those under intoxication. Consent must be explicit and voluntary. The law expands to various forms of sexual acts."
+  },
+  {
+    "id": 12,
+    "title": "IPC Section 376 – Punishment for Rape",
+    "content": "Punishment for rape ranges from 10 years to life imprisonment. Further enhancements apply for aggravated forms such as custodial rape or gang rape. Victim safety and dignity are prioritized. Courts ensure speedy trial in such offences."
+  },
+  {
+    "id": 13,
+    "title": "IPC Section 379 – Theft",
+    "content": "Theft is dishonestly taking movable property out of someone’s possession without consent. Punishment extends up to three years or fine. Dishonest intention must be proved. Property can include valuable items and documents."
+  },
+  {
+    "id": 14,
+    "title": "IPC Section 380 – Theft in Dwelling House",
+    "content": "This covers theft committed in a house, building, or place used for custody of property. Punishment extends to seven years. It is a cognizable offence. Enhanced protection is given to residential property."
+  },
+  {
+    "id": 15,
+    "title": "IPC Section 390 – Robbery",
+    "content": "Robbery involves theft or extortion using violence or fear of injury. Punishment extends up to 10 years. When committed on highway, penalties increase. Threat or force must be immediate."
+  },
+  {
+    "id": 16,
+    "title": "IPC Section 392 – Punishment for Robbery",
+    "content": "This section prescribes imprisonment up to 10 years for robbery. If committed on highway after sunset and before sunrise, punishment may increase. Violence or intimidation must be present. Seriousness of crime justifies harsher penalties."
+  },
+  {
+    "id": 17,
+    "title": "IPC Section 406 – Criminal Breach of Trust",
+    "content": "This involves dishonestly misappropriating property entrusted to a person. Punishment extends up to three years. Entrustment is key evidence. Common in business or employment disputes."
+  },
+  {
+    "id": 18,
+    "title": "IPC Section 409 – Criminal Breach of Trust by Public Servant",
+    "content": "When a public servant, banker, or merchant commits breach of trust, punishment extends up to life imprisonment. Higher responsibility warrants severe penalty. Misuse of entrusted public resources is taken seriously. Financial documents often serve as evidence."
+  },
+  {
+    "id": 19,
+    "title": "IPC Section 415 – Cheating",
+    "content": "Cheating involves deceiving a person to deliver property or act in a way they wouldn't normally. Punishment extends up to one year or fine. Intent at the time of promise is relevant. Misrepresentation must be proved."
+  },
+  {
+    "id": 20,
+    "title": "IPC Section 420 – Cheating and Dishonest Property Delivery",
+    "content": "This is a major economic offence involving cheating and inducing delivery of property. Punishment extends up to seven years and fine. Fraudulent intention is essential. Often applied in financial scams."
+  },
+  {
+    "id": 21,
+    "title": "IPC Section 425 – Mischief",
+    "content": "Mischief is causing wrongful loss or damage to property with intention. Punishment extends up to three months or fine. Requires proof of intention or knowledge. Damage may be physical or economic."
+  },
+  {
+    "id": 22,
+    "title": "IPC Section 452 – House Trespass after Preparation for Assault",
+    "content": "This covers trespass where offender makes preparation for assault or wrongful restraint. Punishment extends to seven years. Aggravating factors increase penalty. Courts examine evidence of preparation."
+  },
+  {
+    "id": 23,
+    "title": "IPC Section 457 – Lurking House Trespass by Night",
+    "content": "Trespass committed at night with intention to commit offence is punishable with up to five years. If intention is theft, penalty increases. Nighttime crimes are presumed more harmful. Secrecy plays a major role."
+  },
+  {
+    "id": 24,
+    "title": "IPC Section 463 – Forgery",
+    "content": "Forgery involves making a false document with intent to cause damage or fraud. Punishment extends up to two years. It applies to signatures, documents, and seals. Courts require proof of falsification."
+  },
+  {
+    "id": 25,
+    "title": "IPC Section 468 – Forgery for Cheating",
+    "content": "Forgery specifically intended for cheating is punishable up to seven years. Financial frauds are commonly prosecuted under this section. Fake documents and signatures are common evidence. Prosecution must show intent to cheat."
+  },
+  {
+    "id": 26,
+    "title": "IPC Section 471 – Using a Forged Document",
+    "content": "Using a document known to be forged is punishable similarly to creating it. Knowledge is key element. Often used with Sections 463 and 468. Applies to government papers, property deeds, and certificates."
+  },
+  {
+    "id": 27,
+    "title": "IPC Section 498A – Cruelty by Husband or Relatives",
+    "content": "Cruelty includes harassment for dowry and conduct likely to drive a woman to suicide. Punishment may extend to three years. It is non-bailable and cognizable. Aimed at protecting married women from abuse."
+  },
+  {
+    "id": 28,
+    "title": "IPC Section 509 – Word or Gesture Insulting Modesty of Woman",
+    "content": "Words, gestures, or acts intending to insult a woman's modesty are punishable. Penalty extends to one year imprisonment or fine. Often used in harassment cases. Protects dignity and privacy of women."
+  },
+  {
+    "id": 29,
+    "title": "CrPC Section 41 – Arrest without Warrant",
+    "content": "Police may arrest without warrant in cognizable offences. Safeguards require reasons to be recorded. Arrest must be necessary to prevent further offence or ensure presence at trial. Protects individuals from arbitrary arrest."
+  },
+  {
+    "id": 30,
+    "title": "CrPC Section 46 – How Arrest is Made",
+    "content": "Arrest involves touching or confining a person unless they submit voluntarily. Police cannot cause death except in extreme resistance in capital offences. Women should not be arrested after sunset except in special circumstances. Procedure ensures humane treatment."
+  },
+  {
+    "id": 31,
+    "title": "CrPC Section 50 – Rights of Arrested Person",
+    "content": "The arrested person must be informed of grounds of arrest and right to bail. Non-compliance violates constitutional protections. Police must act transparently. This ensures fairness in procedure."
+  },
+  {
+    "id": 32,
+    "title": "CrPC Section 154 – FIR Registration",
+    "content": "Police must record FIR for cognizable offences and provide free copy to complainant. Refusal can be challenged before higher authorities. FIR sets criminal law in motion. It must contain essential facts."
+  },
+  {
+    "id": 33,
+    "title": "CrPC Section 160 – Police Summon Witnesses",
+    "content": "Police may summon witnesses for investigation. Women and minors cannot be required to attend at police station. Purpose is to collect evidence. Witness protection is emphasized."
+  },
+  {
+    "id": 34,
+    "title": "CrPC Section 161 – Examination of Witnesses",
+    "content": "Police may examine witnesses and record statements. These statements are not signed and can be used for contradiction. Helps build prosecution case. Ensures early collection of facts."
+  },
+  {
+    "id": 35,
+    "title": "CrPC Section 167 – Remand",
+    "content": "Accused must be produced before magistrate within 24 hours. Detention may be extended for investigation. Maximum remand is 15 days in police custody. Safeguards prevent abuse of detention power."
+  },
+  {
+    "id": 36,
+    "title": "CrPC Section 173 – Final Report (Chargesheet)",
+    "content": "Police must submit final report after investigation. It contains evidence, witness list, and charges. Magistrate reviews sufficiency of evidence. Chargesheet initiates trial process."
+  },
+  {
+    "id": 37,
+    "title": "CrPC Section 190 – Cognizance of Offence",
+    "content": "Magistrate may take cognizance based on complaint, police report, or information from any person. Application of judicial mind is essential. Ensures that frivolous complaints do not proceed. Initiates formal judicial proceedings."
+  },
+  {
+    "id": 38,
+    "title": "CrPC Section 200 – Examination of Complainant",
+    "content": "Magistrate examines complainant and witnesses before issuing process. Helps filter out baseless complaints. Statement is recorded on oath. Ensures judicial scrutiny."
+  },
+  {
+    "id": 39,
+    "title": "CrPC Section 228 – Framing of Charges",
+    "content": "Court frames charges if sufficient grounds exist for presuming guilt. Charges inform accused of specific allegations. Ensures fair trial. Weak cases may be discharged."
+  },
+  {
+    "id": 40,
+    "title": "CrPC Section 313 – Accused’s Examination",
+    "content": "Court questions accused to explain evidence against them. Answers are not taken under oath. Helps accused clarify circumstances. Ensures transparency."
+  },
+  {
+    "id": 41,
+    "title": "Evidence Act Section 3 – Definition of Evidence",
+    "content": "Evidence includes oral statements and documentary evidence. Courts rely on both forms for decision-making. Relevance and admissibility are key. Helps establish facts in issue."
+  },
+  {
+    "id": 42,
+    "title": "Evidence Act Section 24 – Confession Caused by Inducement",
+    "content": "Confessions caused by threat or promise are inadmissible. Protects accused from coercion. Ensures voluntariness. Courts scrutinize police conduct."
+  },
+  {
+    "id": 43,
+    "title": "Evidence Act Section 45 – Expert Opinion",
+    "content": "Expert opinions on handwriting, fingerprints, or science may be admitted. Helps in technical matters. Court is not bound by expert opinion. Used in cyber and forensic cases."
+  },
+  {
+    "id": 44,
+    "title": "Evidence Act Section 61 – Proof of Contents of Documents",
+    "content": "Documents may be proved by primary or secondary evidence. Original document is primary evidence. Copies may be used in specific circumstances. Ensures fairness in documentary proof."
+  },
+  {
+    "id": 45,
+    "title": "Evidence Act Section 101 – Burden of Proof",
+    "content": "Burden lies on person who asserts a fact. In criminal cases, prosecution must prove guilt beyond reasonable doubt. In civil cases, standard is preponderance of probabilities. Determines responsibility of proving facts."
+  },
+  {
+    "id": 46,
+    "title": "Evidence Act Section 114 – Presumptions by Court",
+    "content": "Courts may presume certain facts like possession implying ownership. These are rebuttable presumptions. Helps fill gaps in evidence. Presumptions aid judicial efficiency."
+  },
+  {
+    "id": 47,
+    "title": "Constitution Article 14 – Equality Before Law",
+    "content": "Article 14 prohibits arbitrary state action and ensures equal protection of laws. Reasonable classification is permitted. Courts review government actions for discrimination. A cornerstone of fundamental rights."
+  },
+  {
+    "id": 48,
+    "title": "Constitution Article 19 – Freedom of Speech and Rights",
+    "content": "Article 19 grants freedoms such as speech, movement, and occupation. Restrictions must be reasonable and in public interest. Ensures democratic participation. Subject to public order and morality."
+  },
+  {
+    "id": 49,
+    "title": "Constitution Article 21 – Right to Life",
+    "content": "Article 21 protects life and personal liberty except by due process. Includes dignity, privacy, and livelihood. Courts have expanded its scope widely. Forms basis for several landmark judgments."
+  },
+  {
+    "id": 50,
+    "title": "Constitution Article 22 – Safeguards Against Arbitrary Arrest",
+    "content": "Provides rights to arrested persons including being informed of grounds and access to counsel. Prohibits detention without magistrate order beyond 24 hours. Ensures protection during custody. Applies to preventive detention laws too."
+  },
+  {
+    "id": 51,
+    "title": "Constitution Article 32 – Right to Constitutional Remedies",
+    "content": "Article 32 allows individuals to approach the Supreme Court directly for enforcement of fundamental rights. It provides remedies such as habeas corpus, mandamus, prohibition, quo warranto, and certiorari. Dr. Ambedkar termed it the 'heart and soul' of the Constitution. It empowers citizens against state violations."
+  },
+  {
+    "id": 52,
+    "title": "Constitution Article 44 – Uniform Civil Code",
+    "content": "Article 44 directs the State to strive for a Uniform Civil Code for all citizens. It aims to promote national unity and legal uniformity across religions. It is a Directive Principle, not enforceable in court. It remains a debated topic in Indian law."
+  },
+  {
+    "id": 53,
+    "title": "Constitution Article 226 – High Court Writ Jurisdiction",
+    "content": "High Courts can issue writs for enforcement of fundamental rights and any other legal rights. This jurisdiction is wider than Article 32. Citizens often approach High Courts for urgent matters. It provides significant check on administrative authorities."
+  },
+  {
+    "id": 54,
+    "title": "Constitution Article 300A – Right to Property",
+    "content": "Article 300A protects citizens from being deprived of property except by lawful authority. Although no longer a fundamental right, it remains a constitutional right. Compensation may be required for acquisition. Arbitrary deprivation violates due process."
+  },
+  {
+    "id": 55,
+    "title": "Consumer Protection Act – Deficiency in Service",
+    "content": "This includes failure to provide promised service quality or timely delivery. Consumers may file complaints in district, state, or national commissions. Remedies include refund, compensation, or replacement. Service providers must adhere to standards."
+  },
+  {
+    "id": 56,
+    "title": "Consumer Protection Act – Product Liability",
+    "content": "Manufacturers are liable for defective products causing harm. Liability applies even without proof of negligence. Compensation may cover injury, loss, and mental distress. Ensures accountability in manufacturing."
+  },
+  {
+    "id": 57,
+    "title": "Consumer Protection Act – E-Commerce Rules",
+    "content": "Online marketplaces must ensure transparency, proper return policies, and display seller details. Dark patterns and unfair trade practices are prohibited. Buyers can raise complaints against online sellers. Protects digital consumers."
+  },
+  {
+    "id": 58,
+    "title": "IT Act Section 43 – Unauthorized Access to Computer",
+    "content": "Section 43 penalizes unauthorized access, downloading, damage, or disruption of computer systems. Civil liability may include compensation for losses. Covers virus spreading and hacking attempts. Protects digital infrastructure."
+  },
+  {
+    "id": 59,
+    "title": "IT Act Section 66 – Computer-Related Offences",
+    "content": "This converts Section 43 violations into criminal offences when done dishonestly or fraudulently. Punishment may include three years imprisonment. Covers hacking, data theft, and system tampering. Intention plays key role."
+  },
+  {
+    "id": 60,
+    "title": "IT Act Section 66E – Violation of Privacy",
+    "content": "Capturing or transmitting private images without consent is punishable. Privacy in changing rooms, bathrooms, and private spaces is protected. Punishment may extend to three years. Aims to curb voyeurism and digital harassment."
+  },
+  {
+    "id": 61,
+    "title": "IT Act Section 67A – Publishing Sexually Explicit Material",
+    "content": "This section punishes publishing or transmitting explicit sexual content electronically. Penalties include up to five years imprisonment. Subsequent offences have more severe penalties. Often used in cyber pornography cases."
+  },
+  {
+    "id": 62,
+    "title": "IT Act Section 69 – Interception and Monitoring",
+    "content": "The government may intercept communications for national security or law enforcement. Strict procedure must be followed. Unauthorized interception is punishable. Balances privacy and security."
+  },
+  {
+    "id": 63,
+    "title": "RTI Act – Right to Access Information",
+    "content": "The Right to Information Act empowers citizens to seek information from public authorities. Authorities must respond within 30 days. Promotes transparency and accountability. Exemptions exist for national security and privacy."
+  },
+  {
+    "id": 64,
+    "title": "RTI Act – Exempted Information",
+    "content": "Information affecting national security, personal privacy, or trade secrets is exempt. Intelligence agencies may be outside RTI unless corruption allegations exist. Balances openness with safety. Public interest can override exemptions."
+  },
+  {
+    "id": 65,
+    "title": "Hindu Marriage Act Section 13 – Divorce Grounds",
+    "content": "Grounds include cruelty, desertion, conversion, mental disorder, and adultery. Either spouse may file for divorce. Special provisions exist for women. Mutual consent divorce is recognized under Section 13B."
+  },
+  {
+    "id": 66,
+    "title": "Hindu Succession Act – Inheritance Rights",
+    "content": "Daughters have equal coparcenary rights as sons. Property is distributed among Class I heirs. Amendments strengthened gender equality. Applies to Hindus, Sikhs, Jains, and Buddhists."
+  },
+  {
+    "id": 67,
+    "title": "Muslim Law – Mehr (Dower)",
+    "content": "Mehr is mandatory payment promised to the wife at marriage. It may be prompt or deferred. Non-payment can lead to legal action. It protects financial security of the wife."
+  },
+  {
+    "id": 68,
+    "title": "Muslim Law – Talaq",
+    "content": "Talaq is dissolution of marriage initiated by husband. Instant triple talaq (Talaq-e-Biddat) is now illegal in India. Other forms like Talaq-e-Ahsan remain valid. Due process and arbitration are encouraged."
+  },
+  {
+    "id": 69,
+    "title": "Christian Marriage Act – Requirements",
+    "content": "Marriage must be performed by authorized ministers or registrars. Notice of intended marriage is required. Consent and age requirements must be fulfilled. Registration ensures legal validity."
+  },
+  {
+    "id": 70,
+    "title": "Special Marriage Act – Civil Marriage",
+    "content": "Inter-religious couples can marry under SMA. A 30-day notice must be given to registrar. Objections can be raised by public during notice period. Provides secular marriage framework."
+  },
+  {
+    "id": 71,
+    "title": "Special Marriage Act – Divorce Provisions",
+    "content": "Grounds for divorce include adultery, cruelty, desertion, and non-resumption of cohabitation. Relief may include alimony and custody. Courts consider best interests of children. SMA governs civil unions."
+  },
+  {
+    "id": 72,
+    "title": "Juvenile Justice Act – Child in Conflict with Law",
+    "content": "Children below 18 accused of offences are dealt with under JJ Act. Focus is on rehabilitation, not punishment. Heinous offences by 16–18-year-olds may be tried as adults. Child-friendly procedures are mandatory."
+  },
+  {
+    "id": 73,
+    "title": "Juvenile Justice Act – Child Welfare Committee",
+    "content": "CWCs handle cases of abandoned, orphaned, or abused children. They are empowered to place children in care institutions. Aim is protection and rehabilitation. Decisions prioritize child welfare."
+  },
+  {
+    "id": 74,
+    "title": "POCSO Act – Protection of Child from Sexual Offences",
+    "content": "POCSO criminalizes sexual offences against minors with stringent punishments. Child-friendly procedures are mandatory. Consent is irrelevant for minors. Covers pornography, harassment, and assault."
+  },
+  {
+    "id": 75,
+    "title": "POCSO Act – Aggravated Sexual Assault",
+    "content": "Aggravated assault includes offences by teachers, police, or relatives. Punishments are more severe. Includes gang assault and offences causing pregnancy. Protects minors from persons in authority."
+  },
+  {
+    "id": 76,
+    "title": "Domestic Violence Act – Protection Orders",
+    "content": "Victims may seek protection orders to restrain abusers. Includes residence rights, protection, and maintenance. Applies to married and live-in relationships. Ensures safety of women."
+  },
+  {
+    "id": 77,
+    "title": "Domestic Violence Act – Residence Orders",
+    "content": "Women cannot be evicted from shared household without court order. Interim orders may be passed. Protects housing rights. Recognizes psychological and economic abuse."
+  },
+  {
+    "id": 78,
+    "title": "Motor Vehicles Act – Drunk Driving",
+    "content": "Driving with blood alcohol content above legal limit is punishable. Penalties include fines, license suspension, or imprisonment. Police conduct breath tests. Aims to reduce road accidents."
+  },
+  {
+    "id": 79,
+    "title": "Motor Vehicles Act – Overspeeding Penalties",
+    "content": "Overspeeding attracts fines and license points. Penalties vary by vehicle type. Repeat offenders face stricter action. Promotes road safety."
+  },
+  {
+    "id": 80,
+    "title": "Motor Vehicles Act – Hit and Run Cases",
+    "content": "Leaving accident scene without reporting is punishable. Compensation schemes provide relief to victims. Courts assess negligence and intent. Encourages responsible driving."
+  },
+  {
+    "id": 81,
+    "title": "RERA Act – Builder Obligations",
+    "content": "Builders must register projects with RERA and disclose details. Homebuyers must be informed about timelines and layout. Default leads to compensation. Enhances transparency in real estate."
+  },
+  {
+    "id": 82,
+    "title": "RERA Act – Buyer Rights",
+    "content": "Buyers can demand refund, compensation, or possession for delays. Structural defects must be rectified by builder. Protects against fraud. Quick adjudication is ensured."
+  },
+  {
+    "id": 83,
+    "title": "Arbitration Act – Appointment of Arbitrator",
+    "content": "Parties may appoint arbitrators mutually or seek court assistance. Ensures neutrality in dispute resolution. Arbitration avoids lengthy court trials. Awards are binding."
+  },
+  {
+    "id": 84,
+    "title": "Arbitration Act – Setting Aside Awards",
+    "content": "Courts may set aside awards for fraud, bias, or violation of public policy. Time limits apply. Ensures fairness in arbitration. Appeals are limited."
+  },
+  {
+    "id": 85,
+    "title": "Companies Act – Director Responsibilities",
+    "content": "Directors must act in good faith and avoid conflicts of interest. They are accountable to shareholders. Violation may lead to penalties. Corporate governance is emphasized."
+  },
+  {
+    "id": 86,
+    "title": "Companies Act – Corporate Social Responsibility (CSR)",
+    "content": "Companies above specified thresholds must spend 2% of profits on CSR activities. Includes education, environment, and health initiatives. Mandatory reporting is required. Encourages corporate accountability."
+  },
+  {
+    "id": 87,
+    "title": "Banking Regulation Act – RBI Powers",
+    "content": "RBI regulates banking operations and maintains monetary stability. It can inspect banks and enforce compliance. Ensures financial security. Protects depositors."
+  },
+  {
+    "id": 88,
+    "title": "SARFAESI Act – Asset Recovery",
+    "content": "Banks may recover secured assets without court intervention. Borrowers may approach DRT for relief. Speeds up NPA recovery. Encourages financial discipline."
+  },
+  {
+    "id": 89,
+    "title": "Negotiable Instruments Act Section 138 – Cheque Bounce",
+    "content": "Dishonour of cheque due to insufficient funds is punishable. Drawer must receive notice within 30 days. Case must be filed within statutory limit. Ensures financial credibility."
+  },
+  {
+    "id": 90,
+    "title": "Environmental Protection Act – Pollution Control",
+    "content": "Regulates industrial and environmental pollution. Government may take measures to protect environment. Violations invite penalties. Ensures sustainable development."
+  },
+  {
+    "id": 91,
+    "title": "Air Pollution Act – Consent for Industries",
+    "content": "Industries must obtain consent to operate within air quality standards. Boards monitor emissions. Violations may lead to closure. Aims to reduce air pollution."
+  },
+  {
+    "id": 92,
+    "title": "Water Pollution Act – Effluent Treatment",
+    "content": "Industries must treat wastewater before discharge. Boards conduct inspections. Non-compliance invites penalties. Protects water bodies."
+  },
+  {
+    "id": 93,
+    "title": "Forest Act – Protection of Forest Land",
+    "content": "Unauthorized clearing or encroachment of forest land is punishable. Government approval is needed for diversion. Helps conserve biodiversity. Forest officers have enforcement powers."
+  },
+  {
+    "id": 94,
+    "title": "Wildlife Protection Act – Hunting Offences",
+    "content": "Hunting protected species is strictly prohibited. Punishments include imprisonment and fines. Sanctuaries and national parks are protected zones. Conserves wildlife."
+  },
+  {
+    "id": 95,
+    "title": "Wildlife Protection Act – Trade in Wildlife Products",
+    "content": "Trade in animal skins, ivory, or body parts is prohibited. Licenses may be required for certain activities. Enforcement includes raids and seizures. Protects endangered species."
+  },
+  {
+    "id": 96,
+    "title": "Drugs and Cosmetics Act – Drug Quality Standards",
+    "content": "Regulates manufacture and sale of medicines. Ensures safety, efficacy, and quality. Fake drugs attract harsh penalties. Protects public health."
+  },
+  {
+    "id": 97,
+    "title": "NDPS Act – Possession of Narcotic Drugs",
+    "content": "Possession of banned substances is punishable depending on quantity. Includes cannabis, heroin, and psychotropic substances. Bail is difficult for serious offences. Enforces drug control policies."
+  },
+  {
+    "id": 98,
+    "title": "NDPS Act – Illegal Trafficking",
+    "content": "Drug trafficking attracts severe penalties, including long-term imprisonment. Financial investigations often accompany cases. International cooperation aids enforcement. Protects society from narcotics."
+  },
+  {
+    "id": 99,
+    "title": "Food Safety Act – Adulteration Offences",
+    "content": "Selling adulterated or unsafe food is punishable. Inspections and lab tests determine violations. Penalties include fines and imprisonment. Ensures safe consumption."
+  },
+  {
+    "id": 100,
+    "title": "Food Safety Act – Licensing of Food Businesses",
+    "content": "Food businesses must obtain licenses and maintain hygiene standards. Authorities can suspend or cancel licenses. Regular inspections are mandated. Ensures quality control in food sector."
+  }
+]
