@@ -1,239 +1,95 @@
-📘 LexVault – AI-Powered Indian Law RAG Assistant (Local Ollama Edition)
+# LexVault 📘
 
-LexVault is a Retrieval-Augmented Generation (RAG) based AI assistant designed specifically for Indian law.
-It runs fully offline using Ollama (local LLM engine) and your own structured legal dataset.
+An offline, Retrieval-Augmented Generation (RAG) assistant for Indian law, built to answer legal questions using a local LLM and a custom legal corpus — no API costs, no cloud dependency.
 
-This project demonstrates how to integrate:
+## Overview
 
-📄 Custom Legal Corpus (JSON-based knowledge bank)
+LexVault lets you ask natural-language questions about Indian law (IPC, CrPC, Evidence Act, etc.) and get answers grounded in retrieved legal text, generated entirely on your local machine via Ollama.
 
-🔍 TF-IDF Based Retrieval
+**Example queries:**
+- "What is Section 302 IPC?"
+- "Explain bail under CrPC 437."
+- "What are the rights under Article 21?"
 
-🤖 Local LLM (Llama3.1 through Ollama)
+## How It Works
 
-🌐 Express Backend API
+1. User submits a legal question through the React frontend
+2. The Express backend retrieves the most relevant sections from the legal corpus using **TF-IDF vector search**
+3. Retrieved context + the question are assembled into a RAG prompt
+4. The prompt is sent to a **local LLM via Ollama** (Llama 3.1 by default)
+5. The generated answer, along with the retrieved source sections, is returned to the frontend
 
-💻 React Frontend UI
+```
+Frontend (React) → POST /ask → Backend (Express)
+                                    ↓
+                          TF-IDF Retrieval (natural)
+                                    ↓
+                    RAG Prompt (context + question)
+                                    ↓
+                        Local LLM (Ollama / Llama 3.1)
+                                    ↓
+                    { answer, retrievedDocs } → Frontend
+```
 
-All processing is done locally with zero API costs, making it ideal for developers, students, and legal tech experiments.
+## Tech Stack
 
-🚀 Project Flow (Architecture Overview)
+- **Frontend:** React, Tailwind CSS, Axios
+- **Backend:** Node.js, Express
+- **Retrieval:** TF-IDF search via the `natural` NPM library
+- **LLM:** Ollama (local inference — Llama 3.1, Mistral, Llama 2, or Phi-3)
+- **Core modules:** `retriever.js` (TF-IDF search), `llm.js` (Ollama integration), `rag.js` (retrieval + generation orchestration)
 
-The system follows a simple but powerful RAG pipeline:
+## Requirements
 
-1️⃣ User asks a legal question (Frontend UI)
+- [Ollama](https://ollama.com/download) installed and running locally
+- 8GB RAM, 4-core CPU, ~3GB free storage recommended
+- An LLM pulled via Ollama:
+  ```bash
+  ollama pull llama3.1
+  ```
 
-User enters a query like “What is bail provision for non-bailable offences?”
+## Getting Started
 
-2️⃣ Query sent to backend (/ask endpoint)
+```bash
+git clone https://github.com/SHAHZIL14/LexVaultAi.git
+cd LexVaultAi
+```
 
-Frontend sends POST request:
-
-{ "question": "..." }
-
-3️⃣ Backend retrieves relevant legal documents
-
-Using TF-IDF vector search, backend finds top-matched sections from your legal dataset (IPC, CrPC, Evidence Act, etc.)
-
-4️⃣ Context + Question sent to Local LLM
-
-Backend builds a RAG prompt:
-
-CONTEXT:
-• Top 3 relevant documents found
-USER QUESTION:
-...
-
-5️⃣ Ollama generates answer locally
-
-Ollama runs the model:
-llama3.1 (Fast & high-quality)
-or any other installed model
-
-6️⃣ Backend returns structured JSON
-
-Frontend gets:
-
-{
-  "answer": "...",
-  "retrievedDocs": [...]
-}
-
-7️⃣ Frontend displays AI response + relevant sections
-🧠 Tech Stack
-Frontend
-
-React
-
-TailwindCSS
-
-Axios / Fetch (API calls)
-
-Modern loader, clean legal UI
-
-Backend
-
-Node.js + Express
-
-TF-IDF retrieval using natural
-
-Ollama local LLM API
-
-dotenv
-
-node-fetch
-
-RAG Components
-
-retriever.js → TF-IDF search
-
-llm.js → Local Ollama integration
-
-rag.js → Combines retrieval + generation
-
-📦 Dependencies
-Frontend Dependencies
-react
-react-dom
-axios
-tailwindcss
-
-Backend Dependencies
-express
-cors
-dotenv
-natural
-node-fetch
-
-🖥 System Requirements
-✔ You must install Ollama (mandatory)
-
-Download (free):
-https://ollama.com/download
-
-✔ Minimum Recommended Specs
-
-8GB RAM
-
-4-core CPU
-
-3GB storage
-
-macOS / Windows / Linux
-
-✔ Required LLM Model
-
-Install Llama via terminal:
-
-ollama pull llama3.1
-
-
-Or you may use:
-
-ollama pull mistral
-ollama pull llama2
-ollama pull phi3
-
-🛠 Setup Guide – Run Locally
-1️⃣ Clone the project
-git clone <your-repo-url>
-cd lexvault
-
-📦 2️⃣ Backend Setup
-Install dependencies
-cd backend
+**Backend:**
+```bash
+cd Backend
 npm install
-
-Start backend
 npm start
+```
+Runs on `http://localhost:3000`
 
-
-It will run on:
-
-http://localhost:3000
-
-Verify Ollama
-
-Run:
-
-ollama run llama3.1
-
-
-If you get a response → Ollama is working.
-
-💻 3️⃣ Frontend Setup
-cd frontend
+**Frontend:**
+```bash
+cd Frontend
 npm install
 npm run dev
+```
+Runs on `http://localhost:5173`
 
+**Verify Ollama is running:**
+```bash
+ollama run llama3.1
+```
 
-Your app runs on:
+## Notes
 
-http://localhost:5173
+- Ollama must be running locally for the backend to serve responses
+- All inference runs on-device — no external API calls, no token costs
+- For remote/public access, the backend would need to be exposed via a tunnel (e.g., Cloudflare Tunnel) since it's built for local use by default
 
-🔗 4️⃣ Connecting Frontend → Backend
+## Roadmap
 
-Ensure the frontend uses:
+- [ ] Move corpus storage to MongoDB for structured querying and easier corpus updates
+- [ ] Add authentication for multi-user deployments
+- [ ] Expand legal corpus coverage beyond IPC/CrPC/Evidence Act
+- [ ] Add source citation highlighting in the UI
 
-const res = await fetch("http://localhost:3000/ask", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ question }),
-});
+## Author
 
-
-or axios:
-
-axios.post("http://localhost:3000/ask", { question });
-
-🧪 How to Use the Project
-
-Run Ollama
-
-Start backend
-
-Start frontend
-
-Open UI
-
-Ask anything (example):
-
-“What is Section 302 IPC?”
-
-“Explain bail under CrPC 437.”
-
-“What are rights under Article 21?”
-
-You will receive:
-
-AI-generated answer
-
-Retrieved legal sections
-
-Clean, structured output
-
-Everything runs offline and free.
-
-⚠️ Important Notes
-
-Ollama must stay running for backend to work
-
-This project uses local machine computing, not cloud
-
-For public deployment, you must use Cloudflare Tunnel (free)
-
-Without tunnel, API only works on your device
-
-🏁 Final Summary
-
-LexVault is a fully offline RAG AI legal assistant that:
-
-Uses your own legal dataset
-
-Retrieves relevant sections using TF-IDF
-
-Generates high-quality responses using Ollama models
-
-Is completely free, with no tokens, no API keys, no cost
-
-Works entirely on your local machine
+**Mohd Shazil Raza**
+[GitHub](https://github.com/SHAHZIL14) · [LinkedIn](https://linkedin.com/in/shazilr)
